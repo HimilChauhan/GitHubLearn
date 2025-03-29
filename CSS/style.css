@@ -4,4 +4,8 @@ h1 {
 
 p {
   color: lightcoral;
+  padding: 20px;
+  border: 2px dashed saddlebrown;
+  border-radius: 10px;
+  background-color: lightsalmon;
 }
