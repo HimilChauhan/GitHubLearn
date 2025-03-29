@@ -9,3 +9,10 @@ p {
   border-radius: 10px;
   background-color: lightsalmon;
 }
+
+ul {
+  display: flex;
+  gap: 30px;
+  text-decoration: none;
+  list-style: none;
+}
