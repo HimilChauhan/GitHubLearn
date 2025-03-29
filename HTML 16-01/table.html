@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Col1</th>
+                <th>Col2</th>
+                <th>Col3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Row1</td>
+                <td>Row2</td>
+                <td>Row3</td>
+            </tr>
+            <tr>
+                <td>Row5</td>
+                <td>Row6</td>
+            </tr>
+            <tfoot>
+                <tr align="center">
+                    <td colspan="3">Row7</td>
+                </tr>
+            </tfoot>
+        </tbody>
+    </table>
+</body>
+</html>
